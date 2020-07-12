@@ -5,6 +5,7 @@ using System.Text;
 namespace CompositionGeometry {
     public class Square {
 
+        //inherits rectangle.
         private Rectangle rect;
 
         public void GetPerimeter() {

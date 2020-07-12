@@ -15,7 +15,7 @@ namespace CompositionGeometry {
             Console.WriteLine($"The Area is {quad.Leg1 * quad.Leg2}"); 
         }
 
-        public Rectangle(int l1, int l2) { //takes user entered parameters, sets them to egs
+        public Rectangle(int l1, int l2) { //takes user entered parameters, sets them to legs
             quad.Leg1 = l1;
             quad.Leg3 = l1;
             quad.Leg2 = l2;
